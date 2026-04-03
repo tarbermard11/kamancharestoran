@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamancha Restoran</title>
+    <link rel="stylesheet" href="as.css">
+</head>
+<body>
+    <div class="sax">
+    <div class="a">
+        <h1>Kamancha Restoran</h1>
+        <div class="right">
+        <a href="about.html"><h1>Մեր մասին</h1></a>
+        <a href="menu.html"><h1>Մենյու</h1></a>
+        <a href="contact.html"><h1>Կոնտակտներ</h1></a>
+        <label for="language">Ընտրիր լեզուն՝</label>
+<select id="language" onchange="changeLanguage()">
+  <option value="hy">Հայերեն</option>
+  <option value="en">English</option>
+  <option value="ru">Русский</option>
+</select>
+
+<script>
+function changeLanguage() {
+  const lang = document.getElementById("language").value;
+
+  if (lang === "hy") {
+    document.documentElement.lang = "hy";
+    alert("Դուք ընտրեցիք Հայերեն");
+  } else if (lang === "en") {
+    document.documentElement.lang = "en";
+    alert("You selected English");
+  } else if (lang === "ru") {
+    document.documentElement.lang = "ru";
+    alert("Вы выбрали русский");
+  }
+}
+</script>
+</div>
+    </div>
+    <div class="i">
+        <h2>Բարի գալուստ Kamancha ռեստորան</h2>
+        <p>Մենք ուրախ ենք ողջունել ձեզ մեր ռեստորանում, որտեղ կարող եք վայելել ավանդական հայկական խոհանոցը: Մեր խոհանոցը պատրաստվում է միայն թարմ և բնական բաղադրիչներից, որպեսզի ապահովենք ձեզ լավագույն համը և որակը: Մենք ձգտում ենք ստեղծել ջերմ և հյուրընկալ միջավայր, որտեղ կարող եք վայելել համեղ ուտեստներ և լավ սպասարկում: Շնորհակլություն, որ ընտրել եք Kamancha ռեստորանը, և մենք հույս ունենք, որ ձեր այցելությունը կլինի պարզ և հիշարժան:</p>
+    </div>
+    <div class="z">
+        <a href="booking.html"><h2>Ամրագել այց</h2></a>
+    </div>
+    <div class="nkar">
+        <h2>Photos & Videos:</h2>
+        <div class="photos">
+        <img src="https://avatars.mds.yandex.net/i?id=187721d28006123852bf2a3d4a7334d85433502d-10677603-images-thumbs&n=13" alt="">
+        <img src="https://avatars.mds.yandex.net/i?id=ac830349e7b3f26d57f93d320b3fb71db4bd41b4-10503674-images-thumbs&n=13" alt="">
+        <img src="https://avatars.mds.yandex.net/i?id=2fa811a824c070f88de0b18fa6798c01e371d617-5288402-images-thumbs&n=13" alt="">
+
+
+        </div>
+    </div>
+    <div class="jam">
+        <H2>Աշխատանքային ժամերը</H2>
+        <p><u>Երկուշաբթի-Կիրակի՝ 10:00 - 22:00</u></p>
+    </div>
+    <div class="p">
+        <h2>Armat Gastro Group LLC | Kamancha Restaurant © 2025 | Yerevan, Armenia</h2>
+        <div>
+        <a href="https://www.facebook.com/armatgastrogroup" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="" class="small-img"> </a>
+        <a href="https://www.instagram.com/armatgastrogroup/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="" class="small-img"></a>
+        <a href="https://www.youtube.com/channel/UC9s8n2X" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733559.png" alt="" class="small-img"></a>
+        <style>
+            .small-img {
+            width: 60px;
+             height: auto;
+                margin: 0 10px;
+            }
+</style>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
