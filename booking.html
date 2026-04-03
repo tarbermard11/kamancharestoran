@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="as.css">
+</head>
+<body>
+    <div class="b">
+        <h1>Ամրագել այց</h1>
+        <p>Խնդրում ենք լրացնել ստորև նշված ձևը՝ ձեր այցը ամրագելու համար:</p>
+        <form action="submit_booking.php" method="post">
+            <label for="name">Անուն:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Էլ. փոստ:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone">Հեռախոսահամար:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            <label for="date">Այցի ամսաթիվ:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+            <label for="time">Այցի ժամ:</label><br>
+            <input type="time" id="time" name="time" required><br><br>
+            <input type="submit" value="Ամրագրել">
+        </form>
+    </div>
+</body>
+</html>
